@@ -1,12 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const fundraiseRoute = require("./routes/fundraise-router")
+const educationRoute = require("./routes/education-router")
 const app = express();
 
 // Middlewares
 
 app.use(express.json());
 app.use("/fundraise",fundraiseRoute)// localhost:5000/Donation
+app.use("/education",educationRoute)
 
 mongoose
 .connect(
