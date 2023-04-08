@@ -2,10 +2,13 @@ const express = require('express');
 const mongoose = require('mongoose');
 const fundraiseRoute = require("./routes/fundraise-router")
 const app = express();
+const cors = require("cors");
 
 // Middlewares
+app.use(cors());
 
 app.use(express.json());
+//app.use(cors());
 app.use("/fundraise",fundraiseRoute)// localhost:5000/Donation
 
 mongoose

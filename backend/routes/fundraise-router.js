@@ -3,20 +3,20 @@ const Fundraise = require("../model/Fundraise");
 const router = express.Router();
 const fundraiseController= require("../controllers/fundraise-controllers");
 
-router.get("/", async (req, res, next) => {
+//router.get("/", async (req, res, next) => {
     // This route will provide all of the fundraises
-    let fundraises;
-    try {
-        fundraises = await Fundraise.find();
-    } catch (err) {
-        console.log(err);
-    }
+    //let fundraises;
+    //try {
+      //  fundraises = await Fundraise.find();
+    //} catch (err) {
+     //   console.log(err);
+    //}
 
-    if (!fundraises) {
-        return res.status(404).json({ message: "No products found"});
-    }
-    return res.status(200).json({ fundraises });
-});
+    //if (!fundraises) {
+      //  return res.status(404).json({ message: "No products found"});
+    //}
+    //return res.status(200).json({ fundraises });
+// });
 
 router.get("/", fundraiseController.getAllFundraise);
 router.post("/",fundraiseController.addFundraise);
