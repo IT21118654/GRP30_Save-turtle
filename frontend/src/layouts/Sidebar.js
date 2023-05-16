@@ -6,34 +6,9 @@ import probg from "../assets/images/bg/download.jpg";
 const navigation = [
   {
     title: "Dashboard",
-    href: "/starter",
+    href: "/signin",
     icon: "bi bi-speedometer2",
-  },
-  {
-    title: "Research",
-    href: "/research",
-    icon: "bi bi-bell",
-  },
-  {
-    title: "Awareness",
-    href: "/awareness",
-    icon: "bi bi-patch-check",
-  },
-  {
-    title: "Advocacy",
-    href: "/advocacy",
-    icon: "bi bi-hdd-stack",
-  },
-  {
-    title: "Fundraise",
-    href: "/fundraise",
-    icon: "bi bi-card-text",
-  },
-  {
-    title: "About",
-    href: "/about",
-    icon: "bi bi-people",
-  },
+  }, 
 ];
 
 const Sidebar = () => {
@@ -59,7 +34,7 @@ const Sidebar = () => {
             <i className="bi bi-x"></i>
           </Button>
         </div>
-        <div className="bg-dark text-white p-2 opacity-75">Steave Rojer</div>
+        <div className="bg-dark text-white p-2 opacity-75"></div>
       </div>
       <div className="p-3 mt-2">
         <Nav vertical className="sidebarNav">

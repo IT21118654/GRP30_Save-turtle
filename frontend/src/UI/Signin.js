@@ -14,12 +14,7 @@ export default function (props) {
         <form className="Auth-form">
           <div className="Auth-form-content">
             <h3 className="Auth-form-title">Sign In</h3>
-            <div className="text-center">
-              Not registered yet?{" "}
-              <span className="link-primary" onClick={changeAuthMode}>
-                Sign Up
-              </span>
-            </div>
+           
             <div className="form-group mt-3">
               <label>Email address</label>
               <input
@@ -37,9 +32,13 @@ export default function (props) {
               />
             </div>
             <div className="d-grid gap-2 mt-3">
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
+            <a className="btn btn-primary" href={`/starter`} role="button">Login</a>
+            </div>
+            <div className="text-center">
+              Not registered yet?{" "}
+              <span className="link-primary" onClick={changeAuthMode}>
+                Sign Up
+              </span>
             </div>
             <p className="text-center mt-2">
               Forgot <a href="#">password?</a>
@@ -54,13 +53,8 @@ export default function (props) {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
-          <div className="text-center">
-            Already registered?{" "}
-            <span className="link-primary" onClick={changeAuthMode}>
-              Sign In
-            </span>
-          </div>
+          <h3 className="Auth-form-title">Sign Up</h3>
+        
           <div className="form-group mt-3">
             <label>Full Name</label>
             <input
@@ -86,9 +80,13 @@ export default function (props) {
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
+          <a className="btn btn-primary" href={`/starter`} role="button">Sign Up</a>
+          </div>
+          <div className="text-center">
+            Already registered?{" "}
+            <span className="link-primary" onClick={changeAuthMode}>
+              Sign In
+            </span>
           </div>
           <p className="text-center mt-2">
             Forgot <a href="#">password?</a>

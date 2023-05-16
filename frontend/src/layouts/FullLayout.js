@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import { Container } from "reactstrap";
 import Footer from "./Footer";
+import About from "../views/About";
 
 const FullLayout = () => {
   return (
@@ -11,9 +12,9 @@ const FullLayout = () => {
       <Header />
       <div className="pageWrapper d-lg-flex">
         {/********Content Area**********/}
-        <div className="contentArea">
+        <div className=" contentArea">
           {/********Middle Content**********/}
-          <Container className="p-4" fluid>
+          <Container  fluid>
             <Outlet />
           </Container>
         </div>

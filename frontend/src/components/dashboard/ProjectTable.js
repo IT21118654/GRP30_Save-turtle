@@ -2,42 +2,42 @@ import { Card, CardBody, CardTitle, CardSubtitle, Table } from "reactstrap";
 import user1 from "../../assets/images/users/user1.jpg";
 import user2 from "../../assets/images/users/user2.jpg";
 import user3 from "../../assets/images/users/user3.jpg";
-import user4 from "../../assets/images/users/user4.jpg";
+import user4 from "../../assets/images/bg/sonal.jpg";
 import user5 from "../../assets/images/users/user5.jpg";
 
 
 const tableData = [
   {
-    avatar: user4,
-    name: "Liyanage S.D.K",
-    email: "sonalliyanage69@gmail.com",
-    project: "Education & Research",
+    avatar: user3,
+    name: " R.A.K.K. Kailash Waran",
+    email: " it21118654@my.sliit.lk ",
+    function: "Fundraise",
     status: "done",
-    weeks: "IT21006548",
+    weeks: "it21118654",
   },
   {
     avatar: user4,
-    name: "Liyanage S.D.K",
-    email: "sonalliyanage69@gmail.com",
-    project: "Education & Research",
+    name: "S.D.K. Liyanage",
+    email: " it21006548@my.sliit.lk ",
+    function: "Education & Research",
     status: "done",
-    weeks: "IT21006548",
+    weeks: "it21006548",
   },
   {
-    avatar: user4,
-    name: "Liyanage S.D.K",
-    email: "sonalliyanage69@gmail.com",
-    project: "Education & Research",
+    avatar: user3,
+    name: "L.J. Samarahewa",
+    email: "it21114380@my.sliit.lk ",
+    function: "Awareness",
     status: "done",
-    weeks: "IT21006548",
+    weeks: "it21114380",
   },
   {
-    avatar: user4,
-    name: "Liyanage S.D.K",
-    email: "sonalliyanage69@gmail.com",
-    project: "Education & Research",
+    avatar: user3,
+    name: "M. Ridhushan",
+    email: " it21070280@my.sliit.lk",
+    function: "Advocacy",
     status: "done",
-    weeks: "IT21006548",
+    weeks: " it21070280",
   },
 ];
 
@@ -55,7 +55,7 @@ const ProjectTables = () => {
             <thead>
               <tr>
                 <th>Team Lead</th>
-                <th>Project</th>
+                <th>Function</th>
 
                 <th>Status</th>
                 <th>Student Number</th>
@@ -79,7 +79,7 @@ const ProjectTables = () => {
                       </div>
                     </div>
                   </td>
-                  <td>{tdata.project}</td>
+                  <td>{tdata.function}</td>
                   <td>
                     {tdata.status === "pending" ? (
                       <span className="p-2 bg-danger rounded-circle d-inline-block ms-3"></span>

@@ -11,14 +11,12 @@ const Leatherback = () => {
     <div>
        <CommonSection title = 'Leatherback Turtle'/>
        <h3>Introduction</h3>
-       <p>The Leatherback turtle is the most massive of all marine turtles. 
-        They may grow to be more than 2 metres long and weigh over 600 kg. The heaviest Leatherback ever discovered weighed 918 kg!
-         They have a mostly black dorsal coat with varying degrees of white or lighter patterning. 
-         Pinkish spots on the neck are possible. Leatherback sharks only consume jellyfish and will travel large distances to find them. 
-         Leatherback turtles have been discovered feasting on jellyfish in Arctic Circle waters. They can live in the severe cold because, unlike other turtles, 
-         they can regulate their own body temperature thanks to layers of fatty tissue that insulate their bodies. The English term ''Leatherback'' alludes to their distinctive carapace.
-         Leatherback turtles are capable of diving to great depths of 1500 metres in search of deep-sea jellyfish. At these depths the Leatherback’s body is subjected to tremendous water pressure, but its flexible shell does not break and so the turtle can feed safely. 
-         Today, Leatherback turtles are considered as ‘’Critically Endangered’’. </p>
+       <p>Of all the sea turtles, the leatherback is the biggest. They typically weigh around 600kg and can grow to lengths of more than 2m. 
+        The biggest Leatherback ever discovered was 918kg huge! They have a dorsal black color that predominates, with varying amounts of white or lighter dotting.
+         On the neck, spots may be pinkish. In search of their prey, leatherbacks would travel great distances.
+          They only consume jellyfish. The Leatherback turtle can live in the extreme cold because, unlike other turtles, it can control its own body temperature because layers of fatty tissue insulate its body.
+           They have been spotted feasting on jellyfish in the waters of the Arctic Circle. Their distinctive carapace is what gives them the English name "Leatherback."
+            Leatherback turtles are capable of deep diving of 1500m to look for deep-sea jellyfish. The Leatherback's body is subjected to great water pressure at these depths, but its flexible shell does not crack, allowing the turtle to feed securely. Leatherback turtles are now classified as ''Critically Endangered.'' </p>
         <h3>Scientific Name</h3>
         <p>Dermochelys coriacea</p>
         <h3>Status</h3>
