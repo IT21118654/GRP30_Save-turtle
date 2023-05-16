@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Sidebar from "../layouts/Sidebar";
 import {
   Navbar,
   Collapse,
@@ -109,13 +110,9 @@ const Header = () => {
             ></img>
           </DropdownToggle>
           <DropdownMenu>
-            <DropdownItem header>Info</DropdownItem>
-            <DropdownItem>My Account</DropdownItem>
-            <DropdownItem>Edit Profile</DropdownItem>
-            <DropdownItem divider />
-            <DropdownItem>My Balance</DropdownItem>
-            <DropdownItem>Inbox</DropdownItem>
-            <DropdownItem>Logout</DropdownItem>
+          <aside className="sidebarArea shadow" id="sidebarArea">
+          <Sidebar />
+        </aside>
           </DropdownMenu>
         </Dropdown>
       </Collapse>

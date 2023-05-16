@@ -2,6 +2,7 @@ import { Col, Row } from "reactstrap";
 import SalesChart from "../components/dashboard/SalesChart";
 import Feeds from "../components/dashboard/Feeds";
 import ProjectTables from "../components/dashboard/ProjectTable";
+import Sidebar from "../layouts/Sidebar";
 
 import Blog from "../components/dashboard/Blog";
 import bg1 from "../assets/images/bg/bg1.jpg";
@@ -46,10 +47,13 @@ const BlogData = [
 
 const Starter = () => {
   return (
+    <main>
     <div>
+       
       {/***Top Cards***/}
 
       {/***Sales & Feed***/}
+      
       <Row>
         <Col sm="6" lg="6" xl="7" xxl="8">
           <SalesChart />
@@ -79,6 +83,7 @@ const Starter = () => {
         ))}
       </Row>
     </div>
+    </main>
   );
 };
 

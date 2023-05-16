@@ -20,7 +20,7 @@ const Green = () => {
         <Button className='btn btn-primary'><Link to='/greenlocation'>Click Here</Link></Button>
         <br></br>
         <br></br>
-        <Button className='btn btn-info'>Browse Photos</Button>
+        <Button className='btn btn-info'><Link to='/gallery'>Browse Photos</Link></Button>
     </div>
   )
 }

@@ -29,6 +29,7 @@ const GreenLocation = lazy(() => import("../UI/GreenLocation.js"));
 const LeatherbackLocation = lazy(() => import("../UI/LeatherbackLocation.js"));
 const HawksbillLocation = lazy(() => import("../UI/HawksbillLocation.js"));
 const Gallery = lazy(() => import("../UI/Gallery.js"));
+const Signin = lazy(() => import("../UI/Signin.js"));
 /*****Routes******/
 
 const ThemeRoutes = [
@@ -59,6 +60,7 @@ const ThemeRoutes = [
       { path: "/leatherlocation",exact: true, element: <LeatherbackLocation/> },
       { path: "/hawkslocation",exact: true, element: <HawksbillLocation/> },
       { path: "/gallery",exact: true, element: <Gallery/> },
+      { path: "/signin",exact: true, element: <Signin/> },
 
     ],
   },

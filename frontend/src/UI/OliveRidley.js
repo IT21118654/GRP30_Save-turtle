@@ -22,7 +22,7 @@ const OliveRidley = () => {
         <Button className='btn btn-primary'><Link to='/olivelocation'>Click Here</Link></Button>
         <br></br>
         <br></br>
-        <Button className='btn btn-info'><Link to='/olivelocation'>Browse Photos</Link></Button>
+        <Button className='btn btn-info'><Link to='/gallery'>Browse Photos</Link></Button>
     </div>
   )
 }
