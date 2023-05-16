@@ -20,13 +20,14 @@ const getAllEducation = async (req, res, next) => {
 
 // Add Education 
 const addEducation = async (req, res, next) => {
-    const {type, Age, Status, Specialists, Reports} = 
+    const {type, Altitude, Longitude, Status, Specialists, Reports} = 
     req.body;
     let education;
     try {
         education = new Education({
             type,
-            Age,
+            Altitude,
+            Longitude,
             Status,
             Specialists,
             Reports
@@ -64,12 +65,13 @@ const getEduById = async (req, res, next) => {
 
 const updateEducation = async (req, res, next) => {
     const eduid = req.params.id;
-    const {type, Age, Status, Specialists, Reports} = req.body;
+    const {type, Altitude, Longitude, Status, Specialists, Reports} = req.body;
     let education;
     try {
         education = await Education.findByIdAndUpdate(eduid, {
             type,
-            Age,
+            Altitude,
+            Longitude,
             Status,
             Specialists,
             Reports

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Sidebar from "../layouts/Sidebar";
 import {
   Navbar,
   Collapse,
@@ -64,12 +65,27 @@ const Header = () => {
         <Nav className="me-auto" navbar>
           <NavItem>
             <Link to="/starter" className="nav-link">
-              Starter
+              Home
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/turtlehome" className="nav-link">
+              Turtles
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/#" className="nav-link">
-              About
+              Threats
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/#" className="nav-link">
+              Fundraise
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/#" className="nav-link">
+              Events & Promotions
             </Link>
           </NavItem>
           <UncontrolledDropdown inNavbar nav>
@@ -94,13 +110,9 @@ const Header = () => {
             ></img>
           </DropdownToggle>
           <DropdownMenu>
-            <DropdownItem header>Info</DropdownItem>
-            <DropdownItem>My Account</DropdownItem>
-            <DropdownItem>Edit Profile</DropdownItem>
-            <DropdownItem divider />
-            <DropdownItem>My Balance</DropdownItem>
-            <DropdownItem>Inbox</DropdownItem>
-            <DropdownItem>Logout</DropdownItem>
+          <aside className="sidebarArea shadow" id="sidebarArea">
+          <Sidebar />
+        </aside>
           </DropdownMenu>
         </Dropdown>
       </Collapse>

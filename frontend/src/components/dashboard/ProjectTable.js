@@ -5,51 +5,39 @@ import user3 from "../../assets/images/users/user3.jpg";
 import user4 from "../../assets/images/users/user4.jpg";
 import user5 from "../../assets/images/users/user5.jpg";
 
+
 const tableData = [
   {
-    avatar: user1,
-    name: "Hanna Gover",
-    email: "hgover@gmail.com",
-    project: "Flexy React",
-    status: "pending",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
-    avatar: user2,
-    name: "Hanna Gover",
-    email: "hgover@gmail.com",
-    project: "Lading pro React",
+    avatar: user4,
+    name: "Liyanage S.D.K",
+    email: "sonalliyanage69@gmail.com",
+    project: "Education & Research",
     status: "done",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
-    avatar: user3,
-    name: "Hanna Gover",
-    email: "hgover@gmail.com",
-    project: "Elite React",
-    status: "holt",
-    weeks: "35",
-    budget: "95K",
+    weeks: "IT21006548",
   },
   {
     avatar: user4,
-    name: "Hanna Gover",
-    email: "hgover@gmail.com",
-    project: "Flexy React",
-    status: "pending",
-    weeks: "35",
-    budget: "95K",
+    name: "Liyanage S.D.K",
+    email: "sonalliyanage69@gmail.com",
+    project: "Education & Research",
+    status: "done",
+    weeks: "IT21006548",
   },
   {
-    avatar: user5,
-    name: "Hanna Gover",
-    email: "hgover@gmail.com",
-    project: "Ample React",
+    avatar: user4,
+    name: "Liyanage S.D.K",
+    email: "sonalliyanage69@gmail.com",
+    project: "Education & Research",
     status: "done",
-    weeks: "35",
-    budget: "95K",
+    weeks: "IT21006548",
+  },
+  {
+    avatar: user4,
+    name: "Liyanage S.D.K",
+    email: "sonalliyanage69@gmail.com",
+    project: "Education & Research",
+    status: "done",
+    weeks: "IT21006548",
   },
 ];
 
@@ -70,8 +58,7 @@ const ProjectTables = () => {
                 <th>Project</th>
 
                 <th>Status</th>
-                <th>Weeks</th>
-                <th>Budget</th>
+                <th>Student Number</th>
               </tr>
             </thead>
             <tbody>
@@ -103,7 +90,6 @@ const ProjectTables = () => {
                     )}
                   </td>
                   <td>{tdata.weeks}</td>
-                  <td>{tdata.budget}</td>
                 </tr>
               ))}
             </tbody>

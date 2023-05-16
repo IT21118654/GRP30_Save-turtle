@@ -6,7 +6,11 @@ const EducationSchema = new Schema({
       type: String,
       required: true
     },
-    Age: {
+    Altitude: {
+      type: Number,
+      required: true
+    },
+    Longitude: {
       type: Number,
       required: true
     },

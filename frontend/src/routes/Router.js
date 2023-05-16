@@ -16,8 +16,20 @@ const Advocacy = lazy(() => import("../views/ui/Advocacy"));
 const Fundraise = lazy(() => import("../views/ui/Fundraise"));
 const FundraiseUpdate = lazy(() => import("../UI/FundraiseUpdate"));
 const AddFundraise = lazy(() => import("../views/pages/Addfundraise"));
-
-
+const AddEducation = lazy(() => import("../UI/AddEducation"));
+const EducationUpdate = lazy(() => import("../UI/EducationUpdate"));
+const TurtleHome = lazy(() => import("../UI/TurtleHome.js"));
+const OliveRidley = lazy(() => import("../UI/OliveRidley.js"));
+const Green = lazy(() => import("../UI/Green.js"));
+const Leatherback = lazy(() => import("../UI/Leatherback.js"));
+const Hawksbill = lazy(() => import("../UI/Hawksbill.js"));
+const Loggerhead = lazy(() => import("../UI/Loggerhead.js"));
+const OliveRedleyLocation = lazy(() => import("../UI/OliveRedleyLocation.js"));
+const GreenLocation = lazy(() => import("../UI/GreenLocation.js"));
+const LeatherbackLocation = lazy(() => import("../UI/LeatherbackLocation.js"));
+const HawksbillLocation = lazy(() => import("../UI/HawksbillLocation.js"));
+const Gallery = lazy(() => import("../UI/Gallery.js"));
+const Signin = lazy(() => import("../UI/Signin.js"));
 /*****Routes******/
 
 const ThemeRoutes = [
@@ -35,6 +47,20 @@ const ThemeRoutes = [
       { path: "/fundraise", exact: true, element: <Fundraise /> },
       { path: "/UpdateFundraise/:_id", exact: true, element: <FundraiseUpdate />  },
       { path: "fundraise/addFundraise",exact: true, element: <AddFundraise /> },
+      { path: "education/addEducation",exact: true, element: <AddEducation /> },
+      { path: "UpdateEducation/:_id",exact: true, element: <EducationUpdate /> },
+      { path: "/turtlehome",exact: true, element: <TurtleHome /> },
+      { path: "/oliveridley",exact: true, element: <OliveRidley /> },
+      { path: "/green",exact: true, element: <Green /> },
+      { path: "/leatherback",exact: true, element: <Leatherback /> },
+      { path: "/hawksbill",exact: true, element: <Hawksbill /> },
+      { path: "/loggerhead",exact: true, element: <Loggerhead/> },
+      { path: "/olivelocation",exact: true, element: <OliveRedleyLocation/> },
+      { path: "/greenlocation",exact: true, element: <GreenLocation/> },
+      { path: "/leatherlocation",exact: true, element: <LeatherbackLocation/> },
+      { path: "/hawkslocation",exact: true, element: <HawksbillLocation/> },
+      { path: "/gallery",exact: true, element: <Gallery/> },
+      { path: "/signin",exact: true, element: <Signin/> },
 
     ],
   },
