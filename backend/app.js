@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const fundraiseRoute = require("./routes/fundraise-router")
 const educationRoute = require("./routes/education-router")
+const awarenessRoute = require("./routes/awareness-router")
 const app = express();
 const cors = require("cors");
 
@@ -12,6 +13,7 @@ app.use(express.json());
 //app.use(cors());
 app.use("/fundraise",fundraiseRoute)// localhost:5000/Donation
 app.use("/education",educationRoute)
+app.use("/awareness",awarenessRoute);
 
 mongoose
 .connect(

@@ -64,7 +64,7 @@ const Header = () => {
       <Collapse navbar isOpen={isOpen}>
         <Nav className="me-auto" navbar>
           <NavItem>
-            <Link to="/starter" className="nav-link">
+            <Link to="/Home" className="nav-link">
               Home
             </Link>
           </NavItem>
@@ -90,13 +90,16 @@ const Header = () => {
           </NavItem>
           <UncontrolledDropdown inNavbar nav>
             <DropdownToggle caret nav>
-              DD Menu
+              Awareness
             </DropdownToggle>
             <DropdownMenu end>
-              <DropdownItem>Option 1</DropdownItem>
-              <DropdownItem>Option 2</DropdownItem>
+            <Link to="/TurtleAwareness" className="nav-link">
+            <DropdownItem>Turtle Awareness</DropdownItem>
+            </Link>
+            <Link to="/ThreatsHome" className="nav-link">
+            <DropdownItem>Inform Us</DropdownItem>
+            </Link>
               <DropdownItem divider />
-              <DropdownItem>Reset</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
         </Nav>
@@ -110,9 +113,13 @@ const Header = () => {
             ></img>
           </DropdownToggle>
           <DropdownMenu>
-          <aside className="sidebarArea shadow" id="sidebarArea">
-          <Sidebar />
-        </aside>
+            <DropdownItem header>Info</DropdownItem>
+            <DropdownItem>My Account</DropdownItem>
+            <DropdownItem>Edit Profile</DropdownItem>
+            <DropdownItem divider />
+            <DropdownItem>My Balance</DropdownItem>
+            <DropdownItem>Inbox</DropdownItem>
+            <DropdownItem>Logout</DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </Collapse>
