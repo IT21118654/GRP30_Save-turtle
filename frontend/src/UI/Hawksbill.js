@@ -11,15 +11,13 @@ const Hawksbill = () => {
     <div>
        <CommonSection title = 'Hawksbill Turtle'/>
        <h3>Introduction</h3>
-       <p>Hawksbill turtles are similarly little turtles; adults typically weigh around 60 kg and measure up to 90cm.
-        They are largely carnivorous and live in tropical coastal waters near coral reefs. 
-        They eat a wide range of creatures, including jellyfish, sponges, and crabs. 
-        The English name for the Hawksbill turtle comes from its thin birdlike beak, which it utilizes to grab creatures lurking in small crevices. 
-        Hawksbill turtles are known to consume poisonous sponges. Hawksbills may store poisons in their own tissues rather than being poisoned. 
-        A human can die from severe food poisoning if he consumes the meat of a Hawksbill turtle. 
-        The Hawksbill turtle is currently critically endangered because people all around the world have been killing them for millennia for their shell.
-         After being cleaned and polished, the  shell is crafted into ‘’tortoiseshell’’ ornaments. 
-         Today, Hawksbill turtles are considered as ‘’Critically Endangered</p>
+       <p>The adults of hawksbill turtles, which typically weigh around 60kg and reach lengths of up to 90cm, are also quite small. 
+        They are largely carnivorous and live in tropical coastal waters near coral reefs.
+         They eat a wide range of creatures, such as jellyfish, sponges, and crabs. 
+         The English name "hawksbill turtle" refers to the creature's tiny, bird-like beak, which it employs to snare prey that is lurking in small cracks.
+          Hawksbill turtles occasionally consume poisonous sponges. Hawksbills can really store the toxins in their own body rather than getting poisoned. 
+          A human who consumes Hawksbill turtle flesh runs the risk of developing severe food illness. Due to centuries of the killing of Hawksbill turtles for their shells by people all over the world, their numbers are now critically low. 
+          Once cleaned and polished, the shell is crafted into ‘’tortoiseshell’’ ornaments. Today, Hawksbill turtles are considered as ‘’Critically Endangered’</p>
         <h3>Scientific Name</h3>
         <p>Eretmochelys imbricata</p>
         <h3>Status</h3>
