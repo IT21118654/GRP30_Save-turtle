@@ -13,7 +13,7 @@ const FullLayout = () => {
         {/********Content Area**********/}
         <div className="contentArea">
           {/********Middle Content**********/}
-          <Container className="p-2" fluid>
+          <Container  fluid>
             <Outlet />
           </Container>
         </div>
