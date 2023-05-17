@@ -88,7 +88,6 @@ const Header = () => {
               Events & Promotions
             </Link>
           </NavItem>
-        
         </Nav>
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
           <DropdownToggle color="transparent">
