@@ -84,7 +84,7 @@ const Header = () => {
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/#" className="nav-link">
+            <Link to="/Event" className="nav-link">
               Events & Promotions
             </Link>
           </NavItem>
