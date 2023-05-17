@@ -43,7 +43,7 @@ export default function AddEducation(){
   </div>
 
   <div className="mb-3">
-    <label for="altitude" class="form-label">Altitude</label>
+    <label for="altitude" class="form-label">Nesting Density</label>
     <input type="text" class="form-control" id="altitude"  placeholder="Enter Altitude"
      onChange={(e) => {
         setAltitude(e.target.value);
@@ -52,7 +52,7 @@ export default function AddEducation(){
   </div>
 
   <div className="mb-3">
-    <label for="longitude" class="form-label">Longitude</label>
+    <label for="longitude" class="form-label">Egg Laying Density</label>
     <input type="text" class="form-control" id="longitude"  placeholder="Enter Longitude"
      onChange={(e) => {
         setLongitude(e.target.value);
@@ -61,7 +61,7 @@ export default function AddEducation(){
   </div>
 
   <div className="mb-3">
-    <label for="status" class="form-label">Turtle Status</label>
+    <label for="status" class="form-label"> Status</label>
     <input type="text" class="form-control" id="status"  placeholder="Enter Turtle Status"
      onChange={(e) => {
         setStatus(e.target.value);
@@ -70,7 +70,7 @@ export default function AddEducation(){
   </div>
 
   <div className="mb-3">
-    <label for="specialists" class="form-label">Turtle Specialists</label>
+    <label for="specialists" class="form-label"> Specialists</label>
     <input type="text" class="form-control" id="specialists" placeholder="Enter Turtle Specialists"
      onChange={(e) => {
         setSpecialists(e.target.value);
@@ -79,7 +79,7 @@ export default function AddEducation(){
   </div>
 
   <div className="mb-3">
-    <label for="reports" class="form-label">Turtle Repots</label>
+    <label for="reports" class="form-label"> Repots</label>
     <input type="text" class="form-control" id="reports"  placeholder="Enter Turtle Repots"
      onChange={(e) => {
         setReports(e.target.value);
