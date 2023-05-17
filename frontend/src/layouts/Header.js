@@ -88,6 +88,20 @@ const Header = () => {
               Events & Promotions
             </Link>
           </NavItem>
+          <UncontrolledDropdown inNavbar nav>
+            <DropdownToggle caret nav>
+              Awareness
+            </DropdownToggle>
+            <DropdownMenu end>
+            <Link to="/TurtleAwareness" className="nav-link">
+            <DropdownItem>Turtle Awareness</DropdownItem>
+            </Link>
+            <Link to="/ThreatsHome" className="nav-link">
+            <DropdownItem>Inform Us</DropdownItem>
+            </Link>
+              <DropdownItem divider />
+            </DropdownMenu>
+          </UncontrolledDropdown>
         </Nav>
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
           <DropdownToggle color="transparent">
