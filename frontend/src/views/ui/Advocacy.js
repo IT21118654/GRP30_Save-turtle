@@ -11,7 +11,7 @@ const advocacies=() =>{
     return(
      <div className="advocacy">
          <div className="advocacy__wrapper">
-            <h2 className="advocacy__title">Fundraise</h2>
+            <h2 className="advocacy__title">Advocacy</h2>
             
             
             <div className="btn">
